@@ -47,3 +47,8 @@ cropped = cv2.cvtColor(cropped,cv2.COLOR_BGR2RGB)
 plt.imshow(img)
 plt.grid(False)
 cv2.waitKey(0)
+
+fig = plt.figure(figsize=(5,10))
+ax = fig.add_subplot(211)
+ax.imshow(cropped)
+plt.grid(False)
